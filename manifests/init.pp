@@ -37,7 +37,7 @@
 #
 class users {
   user { 'fundamentals':
-    ensure => present,
+    ensure => absent,
     gid    => 'staff',
     shell  => '/bin/bash',
   }
